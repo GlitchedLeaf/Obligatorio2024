@@ -18,7 +18,7 @@ namespace ObligatorioAP3
             Tipo = tipo;
             Correo = correo;
             Local = local;
-            ID = id
+            ID = id;
         }
     }
 }
