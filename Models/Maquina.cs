@@ -8,16 +8,16 @@ namespace ObligatorioAP3
 {
     public class Maquinas
     {
-        public Local Local { get; set; }
+        public int ID { get; set; }
         public DateTime FechaCompra { get; set; }
         public decimal PrecioCompra { get; set; }
         public int VidaUtil { get; set; }
         public string Tipo { get; set; }
         public bool Disponible { get; set; }
 
-        public Maquinas(Local local, DateTime fechaCompra, decimal precioCompra, int vidaUtil, string tipo)
+        public Maquinas(int id, DateTime fechaCompra, decimal precioCompra, int vidaUtil, string tipo)
         {
-            Local = local;
+            ID = id;
             FechaCompra = fechaCompra;
             PrecioCompra = precioCompra;
             VidaUtil = vidaUtil;

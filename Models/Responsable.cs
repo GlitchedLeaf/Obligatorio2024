@@ -8,8 +8,10 @@ namespace ObligatorioAP3
 {
     public class Responsable : Persona
     {
-        public Responsable(string nombre, string teléfono) : base(nombre, teléfono)
+        public int ID { get; set; }
+        public Responsable(string nombre, string teléfono, int id) : base(nombre, teléfono)
         {
+            ID = id;
         }
     }
 }
